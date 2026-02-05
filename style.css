@@ -107,16 +107,21 @@ nav {
 #home {
     height: 100vh;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .background-image {
-    background: url("bagway.jpg") no-repeat center center/cover;
+    background: url("bagway.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    min-height: 100vh;
 }
 
 .background-image::before {
@@ -126,7 +131,7 @@ nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
 }
 
 .glass {
@@ -189,6 +194,11 @@ nav {
 section {
     padding: 100px 0;
     min-height: 100vh;
+}
+
+section#home {
+    padding: 0;
+    margin: 0;
 }
 
 .section-title {
@@ -741,6 +751,11 @@ footer {
     
     .menu-toggle {
         display: flex;
+    }
+    
+    .background-image {
+        background-attachment: scroll;
+        background-position: center center;
     }
     
     .glass h2 {
