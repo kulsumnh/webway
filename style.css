@@ -480,20 +480,20 @@ section#home {
     color: #ccc;
 }
 
-/* Bazaar Section */
-#bazaar {
+/* Event Section */
+#event {
     background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
     color: #fff;
 }
 
-.bazaar-grid {
+.event-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
 
-.bazaar-item {
+.event-item {
     background: rgba(218, 165, 32, 0.05);
     border-radius: 20px;
     overflow: hidden;
@@ -501,40 +501,40 @@ section#home {
     transition: all 0.3s ease;
 }
 
-.bazaar-item:hover {
+.event-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 50px rgba(218, 165, 32, 0.3);
 }
 
-.bazaar-img {
+.event-img {
     width: 100%;
     height: 250px;
     overflow: hidden;
 }
 
-.bazaar-img img {
+.event-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
 
-.bazaar-item:hover .bazaar-img img {
+.event-item:hover .event-img img {
     transform: scale(1.1);
 }
 
-.bazaar-content {
+.event-content {
     padding: 1.5rem;
 }
 
-.bazaar-title {
+.event-title {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     color: #DAA520;
     margin-bottom: 1rem;
 }
 
-.bazaar-desc {
+.event-desc {
     color: #ccc;
     line-height: 1.6;
 }
