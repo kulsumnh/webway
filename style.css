@@ -113,7 +113,7 @@ nav {
 }
 
 .background-image {
-    background: url("/src/img/bagway.jpg") no-repeat center center;
+    background: url("bagway.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
