@@ -113,7 +113,7 @@ nav {
 }
 
 .background-image {
-    background: url("bagway.jpg") no-repeat center center;
+    background: url("/src/img/bagway.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
@@ -878,16 +878,6 @@ footer {
     }
     
     .character-desc {
-        font-size: 0.95rem;
-    }
-
-    .process-video video {
-        max-height: 60vh;
-        border-radius: 15px;
-    }
-    
-    .process-text {
-        padding: 1.5rem;
         font-size: 0.95rem;
     }
 }
