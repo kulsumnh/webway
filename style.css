@@ -113,7 +113,7 @@ nav {
 }
 
 .background-image {
-    background: url("/src/img/bagway.jpg") no-repeat center center;
+    background: url("bagway.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
@@ -879,5 +879,34 @@ footer {
     
     .character-desc {
         font-size: 0.95rem;
+    }
+    
+    /* Process */
+    .process-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .process-text {
+        order: 1;
+        padding: 1.5rem;
+        font-size: 0.95rem;
+    }
+    .process-video {
+        order: 2;
+        position: relative;
+        padding-bottom: 0;
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .process-video video {
+        position: relative;
+        width: 100%;
+        height: auto;
+        max-height: 60vh;
+        display: block;
+        object-fit: contain;
+        border-radius: 15px;
     }
 }
